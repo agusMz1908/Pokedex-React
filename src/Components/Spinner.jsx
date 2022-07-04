@@ -1,4 +1,4 @@
-import '../styles/cargando.css'
+import '../styles/Cargando.css'
 
 const Cargando = () => {
   return (
