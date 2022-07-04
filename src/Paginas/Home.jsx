@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../Components/Header'
 import PokemonList from '../Components/PokemonList'
 import Search from '../Components/Search'
-import Spinner from '../Components/Spinner'
+import Cargando from '../Components/Cargando'
 import { useState, useEffect } from 'react'
 
 const Home = () => {
