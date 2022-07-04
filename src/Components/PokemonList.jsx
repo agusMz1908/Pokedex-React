@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header';
 import Pokemon from './Pokemon'
-import Spinner from './Spinner';
+import Cargando from './Cargando';
 
 const PokemonList = ({pokemonList, handleNum, handleStr, setSearch, cargando}) => {
 
@@ -13,7 +13,7 @@ const PokemonList = ({pokemonList, handleNum, handleStr, setSearch, cargando}) =
             handleNum={handleNum}
             setSearch={setSearch}
           />
-        {cargando && <Spinner />}
+        {cargando && <Cargando />}
       <div className="flex flex-wrap items-center justify-center py-[30px] h-full overflow-y-auto">
         {pokemonList.map((pokemon, index) => 
           <Pokemon
